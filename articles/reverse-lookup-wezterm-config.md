@@ -116,7 +116,7 @@ config.ssh_domains = {
 
 `Libssh`の方が、暗号回りのサポートがよかったりするようで、そのためにデフォルトはこちらになっているようです。が、`Libssh`はSSHエージェントに対応していないため、SSHエージェントを使って接続したい場合は`Ssh2`を使うしかありません。
 
-[Usage of `wezterm ssh` with ssh-agent on Windows 11 · wezterm/wezterm · Discussion #3772](https://github.com/wezterm/wezterm/discussions/3772) こちらの話が少し関連していますが、私は特にWindows側の`~/.ssh/config`は設定していません。
+[Usage of `wezterm ssh` with ssh-agent on Windows 11 · wezterm/wezterm · Discussion #3772](https://github.com/wezterm/wezterm/discussions/3772#discussioncomment-7201688) こちらの話が少し関連していますが、私は特にWindows側の`~/.ssh/config`は設定していません。
 
 なおこれだけではSSHエージェント転送は動かないはずです。エージェント転送もしたい場合は、[wsl2-ssh-agent](https://github.com/mame/wsl2-ssh-agent)を使うのが私の知る限り現時点ではベストそうです。(ただし、Pageantとは連携できなそう。)
 
