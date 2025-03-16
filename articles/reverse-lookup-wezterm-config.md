@@ -161,7 +161,7 @@ config.keys = {
   -- Ctrl+/はCtrl+_にしたい
   { mods = 'CTRL', key = '/', action = wezterm.action.SendString('\x1f') },
   -- \で¥が出るだけでなく、VimのLeaderで\を使いたいような場合も効かない
-  { key = "¥", action = wezterm.action.SendString('\\') },
+  { key = '¥', action = wezterm.action.SendString('\\') },
 }
 ```
 
