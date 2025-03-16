@@ -166,6 +166,7 @@ config.keys = {
 ```
 
 参考:
+[CTRL-Q needs to be pressed twice to register in macOS · Issue #2630 · wezterm/wezterm](https://github.com/wezterm/wezterm/issues/2630)
 [Wezterm preventing `CTRL` + `/` from entering vim · Issue #3180 · wezterm/wezterm](https://github.com/wezterm/wezterm/issues/3180#issuecomment-1490214225)
 [Unable to type backslash on mac · Issue #4051 · wezterm/wezterm](https://github.com/wezterm/wezterm/issues/4051)
 
