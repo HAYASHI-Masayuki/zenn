@@ -3,7 +3,7 @@ title: "サプライチェーン攻撃対策に、safe-chainとSocket Firewall F
 emoji: "⛓️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["サプライチェーン攻撃", "security"]
-published: false
+published: true
 ---
 
 前置き
