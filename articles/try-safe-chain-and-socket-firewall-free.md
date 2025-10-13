@@ -2,7 +2,7 @@
 title: "サプライチェーン攻撃対策に、safe-chainとSocket Firewall Freeを試してみた"
 emoji: "⛓️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["サプライチェーン攻撃", "security"]
+topics: ["サプライチェーン攻撃", "security", "zennfes2025infra"]
 published: true
 ---
 
