@@ -6,6 +6,17 @@ topics: ["サプライチェーン攻撃", "security", "zennfes2025infra"]
 published: true
 ---
 
+アップデート
+================================================================================
+
+### 2025-10-15
+
+Socket Firewall Freeもbunに対応していることがわかった[^4]ので、その旨追記しました。
+
+
+[^4]: "`sfw` works with `bun` today. It wasn't in our initial announcement because we hadn't tested it thoroughly. But from user reports, it sounds like it is working well." https://github.com/SocketDev/sfw-free/issues/17#issuecomment-3403643840
+
+
 前置き
 ================================================================================
 
@@ -174,13 +185,13 @@ Socket Firewall Freeは機能的にはsafe-chain＋αという感じで、非常
 2ツールのざっくりとした比較
 ================================================================================
 
-|                                            | safe-chain                                            | Socket Firewall Free                                    |
-| ---                                        | ---                                                   | ---                                                     |
-| 既存のパッケージマネージャをそのまま使える | ○                                                    | ○                                                      |
-| シェル統合                                 | ○                                                    | ×                                                      |
-| 対応言語(パッケージマネージャ)             | JavaScript(npm, yarn, pnpm, bun)                      | JavaScript(npm, yarn, pnpm)/Python(pip, uv)/Rust(cargo) |
-| マルウェアデータベース                     | 自社管理のもの(https://intel.aikido.dev/?tab=malware) | 不明(多分こちらも自社で持ってるデータベースかと)        |
-| ライセンス                                 | AGPL                                                  | PolyForm Shield License 1.0.0                           |
+|                                            | safe-chain                                            | Socket Firewall Free                                         |
+| ---                                        | ---                                                   | ---                                                          |
+| 既存のパッケージマネージャをそのまま使える | ○                                                    | ○                                                           |
+| シェル統合                                 | ○                                                    | ×                                                           |
+| 対応言語(パッケージマネージャ)             | JavaScript(npm, yarn, pnpm, bun)                      | JavaScript(npm, yarn, pnpm, bun)/Python(pip, uv)/Rust(cargo) |
+| マルウェアデータベース                     | 自社管理のもの(https://intel.aikido.dev/?tab=malware) | 不明(多分こちらも自社で持ってるデータベースかと)             |
+| ライセンス                                 | AGPL                                                  | PolyForm Shield License 1.0.0                                |
 
 なんとなく比較してみましたが、基本的なところはかなり大きく違うので、あまり比較の意味がないですね……。まあsafe-chainがOSS寄りで、Socket Firewall Freeがプロプライエタリ寄り、というのがいちばん重要なところかと思います。
 
